@@ -1,0 +1,348 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_st_pause_ctrl_error_adapter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_st_splitter_1 -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_st_splitter_xgmii -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_eth_lane_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rxtx_timing_adapter_pauselen_tx -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_eth_packet_overflow_control -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_eth_pause_ctrl_gen -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_eth_address_inserter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0 -pg 1 -lvl 7 -y 50
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_eth_crc_pad_rem -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_eth_statistics_collector -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1 -pg 1 -lvl 7 -y 520
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2 -pg 1 -lvl 7 -y 860
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_eth_link_fault_detection -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3 -pg 1 -lvl 7 -y 1120
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_eth_frame_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.csr_clk_module -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_st_error_adapter_stat -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rxtx_timing_adapter_pauselen_tx -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_register_map -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_eth_frame_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_st_pipeline_stage_rs -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_st_timing_adapter_link_fault_detection -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_eth_link_fault_generation -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_st_timing_adapter_splitter_status_in -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_eth_pkt_backpressure_control -pg 1
+preplace inst DE5_Reference_Switch_Qsys.jtag_master_0.clk_src -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.txrx_timing_adapter_link_fault_status_rx -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_st_timing_adapter_link_fault_detection -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_eth_frame_status_merger -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_eth_lane_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_register_map -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_st_status_output_delay -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_eth_statistics_collector -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_st_splitter_xgmii -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_timing_adapter_frame_status_out_crc_checker -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_st_error_adapter_stat -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_eth_pause_ctrl_gen -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rxtx_dc_fifo_pauselen -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_eth_default_slave -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_st_timing_adapter_splitter_in -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_st_status_splitter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_st_timing_adapter_splitter_status_output -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rxtx_dc_fifo_pauselen -pg 1
+preplace inst DE5_Reference_Switch_Qsys.jtag_master_0.b2p_adapter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_st_timing_adapter_splitter_status_output -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_eth_pause_ctrl_gen -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_clk_module -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_eth_frame_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_eth_pad_inserter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_st_status_splitter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_eth_link_fault_generation -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_st_pipeline_stage_rs -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_st_timing_adapter_frame_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rxtx_timing_adapter_pauselen_rx -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_eth_frame_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_bridge -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.txrx_timing_adapter_link_fault_status_rx -pg 1
+preplace inst DE5_Reference_Switch_Qsys.tx_fifo_0 -pg 1 -lvl 5 -y 250
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_eth_crc_inserter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.tx_fifo_1 -pg 1 -lvl 5 -y 410
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_register_map -pg 1
+preplace inst DE5_Reference_Switch_Qsys.tx_fifo_2 -pg 1 -lvl 5 -y 860
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_eth_default_slave -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_st_timing_adapter_splitter_status_in -pg 1
+preplace inst DE5_Reference_Switch_Qsys.tx_fifo_3 -pg 1 -lvl 5 -y 940
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_st_timing_adapter_splitter_status_in -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_st_status_statistics_delay -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_eth_link_fault_detection -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_st_timing_adapter_splitter_status_in -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_st_channel_adapter_mux_crc -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rxtx_timing_adapter_pauselen_rx -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_st_timing_adapter_splitter_status_output -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_register_map -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_eth_pkt_backpressure_control -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_eth_address_inserter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_st_pipeline_stage_rs -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_st_status_splitter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_eth_link_fault_detection -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_st_error_adapter_stat -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_st_frame_status_splitter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_st_timing_adapter_splitter_status_output -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_eth_crc_pad_rem -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.merlin_master_translator -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_st_timing_adapter_link_fault_detection -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_st_timing_adapter_interface_conversion -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_eth_statistics_collector -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_clk_module -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_st_status_splitter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_st_timing_adapter_splitter_status_output -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_st_status_splitter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_st_channel_adapter_mux_crc -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_st_status_splitter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.txrx_timing_adapter_link_fault_status_export -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_eth_crc_checker -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_st_timing_adapter_splitter_status_in -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_eth_pkt_backpressure_control -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_st_timing_adapter_interface_conversion -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_st_status_output_delay_to_statistic -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_st_timing_adapter_splitter_status_statistics -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_clk_module -pg 1
+preplace inst DE5_Reference_Switch_Qsys.jtag_master_0.b2p -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_eth_crc_pad_rem -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_st_status_output_delay_to_statistic -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_eth_packet_formatter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.jtag_master_0.p2b -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.txrx_timing_adapter_link_fault_status_rx -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_st_timing_adapter_frame_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_st_timing_adapter_splitter_status_statistics -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_st_timing_adapter_frame_status_in -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_eth_lane_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rxtx_dc_fifo_link_fault_status -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_st_status_splitter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_bridge -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.csr_clk_module -pg 1
+preplace inst DE5_Reference_Switch_Qsys.clk_0 -pg 1 -lvl 1 -y 620
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_eth_statistics_collector -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_st_timing_adapter_frame_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_eth_frame_status_merger -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_st_status_output_delay -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.txrx_st_splitter_link_fault_status -pg 1
+preplace inst DE5_Reference_Switch_Qsys.dppsn_demux_0 -pg 1 -lvl 4 -y 430
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_eth_crc_pad_rem -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_eth_pkt_backpressure_control -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_eth_crc_checker -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_st_timing_adapter_splitter_status_statistics -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_st_timing_adapter_lane_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_eth_packet_overflow_control -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_timing_adapter_frame_status_out_crc_checker -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_timing_adapter_frame_status_out_frame_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_timing_adapter_frame_status_out_crc_checker -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_st_timing_adapter_lane_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_timing_adapter_frame_status_out_frame_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_eth_default_slave -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.csr_clk_module -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.txrx_timing_adapter_link_fault_status_rx -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rxtx_timing_adapter_link_fault_status_tx -pg 1
+preplace inst DE5_Reference_Switch_Qsys.dppsn_header_parser_0 -pg 1 -lvl 7 -y 290
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_st_pause_ctrl_error_adapter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_st_timing_adapter_frame_status_in -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_eth_frame_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_eth_crc_inserter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_st_status_statistics_delay -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rxtx_timing_adapter_link_fault_status_tx -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_eth_packet_overflow_control -pg 1
+preplace inst DE5_Reference_Switch_Qsys.dppsn_scheduler_0 -pg 1 -lvl 6 -y 610
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_st_frame_status_splitter -pg 1
+preplace inst DE5_Reference_Switch_Qsys -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_st_pause_ctrl_error_adapter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_st_timing_adapter_frame_status_in -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_eth_crc_inserter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_eth_packet_underflow_control -pg 1
+preplace inst DE5_Reference_Switch_Qsys.jtag_master_0.fifo -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_st_error_adapter_stat -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_eth_xgmii_termination -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_eth_pkt_backpressure_control -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_timing_adapter_frame_status_out_frame_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.jtag_master_0.jtag_phy_embedded_in_jtag_master -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_bridge -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_eth_pad_inserter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_st_frame_status_splitter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.merlin_master_translator -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.merlin_master_translator -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_st_timing_adapter_splitter_status_statistics -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_eth_xgmii_termination -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_eth_default_slave -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_st_timing_adapter_frame_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rxtx_dc_fifo_link_fault_status -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.txrx_timing_adapter_link_fault_status_export -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_clk_module -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_clk_module -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_eth_statistics_collector -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_st_timing_adapter_splitter_status_statistics -pg 1
+preplace inst DE5_Reference_Switch_Qsys.jtag_master_0.timing_adt -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_st_error_adapter_stat -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_st_error_adapter_stat -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_st_timing_adapter_splitter_out_0 -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_eth_frame_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_eth_default_slave -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_eth_pkt_backpressure_control -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_register_map -pg 1
+preplace inst DE5_Reference_Switch_Qsys.rx_fifo_0 -pg 1 -lvl 2 -y 430
+preplace inst DE5_Reference_Switch_Qsys.jtag_master_0.transacto -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_bridge -pg 1
+preplace inst DE5_Reference_Switch_Qsys.rx_fifo_1 -pg 1 -lvl 2 -y 310
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_st_timing_adapter_splitter_status_in -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_st_status_output_delay_to_statistic -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_register_map -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_st_splitter_xgmii -pg 1
+preplace inst DE5_Reference_Switch_Qsys.rx_fifo_2 -pg 1 -lvl 2 -y 640
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_bridge -pg 1
+preplace inst DE5_Reference_Switch_Qsys.rx_fifo_3 -pg 1 -lvl 2 -y 760
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_st_timing_adapter_splitter_out_0 -pg 1
+preplace inst DE5_Reference_Switch_Qsys.jtag_master_0.p2b_adapter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_st_splitter_1 -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_eth_statistics_collector -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.interface_conversion -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_st_mux_flow_control_user_frame -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_register_map -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_eth_pkt_backpressure_control -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_st_error_adapter_stat -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_eth_pkt_backpressure_control -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_st_timing_adapter_frame_status_in -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_eth_frame_status_merger -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_st_mux_flow_control_user_frame -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_eth_address_inserter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_st_timing_adapter_splitter_status_output -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_eth_pause_beat_conversion -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_st_splitter_1 -pg 1
+preplace inst DE5_Reference_Switch_Qsys.jtag_master_0.clk_rst -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_eth_packet_overflow_control -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_eth_statistics_collector -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_st_channel_adapter_mux_crc -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_st_timing_adapter_splitter_out_0 -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_register_map -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_eth_xgmii_termination -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_eth_crc_inserter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_bridge -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.txrx_st_splitter_link_fault_status -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_eth_frame_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_eth_crc_checker -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_st_pause_ctrl_error_adapter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.interface_conversion -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_clk_module -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_eth_default_slave -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_eth_frame_status_merger -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_st_timing_adapter_splitter_in -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rxtx_dc_fifo_pauselen -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rxtx_timing_adapter_pauselen_tx -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rxtx_timing_adapter_link_fault_status_tx -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_st_timing_adapter_splitter_status_output -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_eth_pad_inserter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rxtx_timing_adapter_pauselen_tx -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_st_splitter_xgmii -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_st_timing_adapter_splitter_out_0 -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_st_status_statistics_delay -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_st_timing_adapter_splitter_in -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_st_splitter_xgmii -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_eth_lane_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.interface_conversion -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_st_timing_adapter_splitter_status_statistics -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_st_timing_adapter_splitter_status_in -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_eth_link_fault_generation -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_eth_packet_underflow_control -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.interface_conversion -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rxtx_dc_fifo_link_fault_status -pg 1
+preplace inst DE5_Reference_Switch_Qsys.clock_bridge_0 -pg 1 -lvl 1 -y 690
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_st_mux_flow_control_user_frame -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_st_frame_status_splitter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_st_timing_adapter_splitter_status_statistics -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_timing_adapter_frame_status_out_crc_checker -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.csr_clk_module -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_st_status_statistics_delay -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_eth_xgmii_termination -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_eth_default_slave -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_st_splitter_1 -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_eth_packet_underflow_control -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rxtx_dc_fifo_pauselen -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_eth_crc_checker -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_st_status_splitter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_eth_link_fault_detection -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_eth_packet_formatter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_st_timing_adapter_lane_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_st_timing_adapter_splitter_status_output -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_eth_packet_underflow_control -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_clk_module -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.tx_eth_packet_formatter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_st_pipeline_stage_rs -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_eth_pause_beat_conversion -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_eth_pause_beat_conversion -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rxtx_dc_fifo_link_fault_status -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_st_splitter_xgmii -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rxtx_timing_adapter_link_fault_status_tx -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_st_timing_adapter_lane_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_timing_adapter_frame_status_out_frame_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.txrx_timing_adapter_link_fault_status_export -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_st_timing_adapter_interface_conversion -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_st_status_output_delay_to_statistic -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_eth_link_fault_generation -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_eth_pad_inserter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_st_status_output_delay -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_st_timing_adapter_splitter_status_statistics -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_st_mux_flow_control_user_frame -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_st_channel_adapter_mux_crc -pg 1
+preplace inst DE5_Reference_Switch_Qsys.dppsn_match_action_table_0 -pg 1 -lvl 6 -y 330
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.txrx_st_splitter_link_fault_status -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_st_splitter_xgmii -pg 1
+preplace inst DE5_Reference_Switch_Qsys.jtag_master_0 -pg 1 -lvl 5 -y 560
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rxtx_timing_adapter_pauselen_rx -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rxtx_timing_adapter_pauselen_rx -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.rx_st_timing_adapter_interface_conversion -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_eth_default_slave -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_eth_statistics_collector -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_st_error_adapter_stat -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_st_status_output_delay -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_eth_pause_ctrl_gen -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_eth_packet_formatter -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.rx_bridge -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_clk_module -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.tx_eth_pause_beat_conversion -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_st_timing_adapter_link_fault_detection -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_0.txrx_timing_adapter_link_fault_status_export -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.rx_st_splitter_xgmii -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_3.txrx_st_splitter_link_fault_status -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_st_timing_adapter_splitter_in -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.merlin_master_translator -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_2.tx_eth_frame_decoder -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.rx_bridge -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_st_timing_adapter_splitter_status_in -pg 1
+preplace inst DE5_Reference_Switch_Qsys.eth_10g_mac_1.tx_eth_address_inserter -pg 1
+preplace netloc POINT_TO_POINT<net_container>DE5_Reference_Switch_Qsys</net_container>(MASTER)tx_fifo_3.out,(SLAVE)eth_10g_mac_3.avalon_st_tx) 1 5 2 NJ 970 2130
+preplace netloc POINT_TO_POINT<net_container>DE5_Reference_Switch_Qsys</net_container>(MASTER)rx_fifo_1.out,(SLAVE)dppsn_scheduler_0.in1) 1 2 4 NJ 340 NJ 340 NJ 340 1770
+preplace netloc POINT_TO_POINT<net_container>DE5_Reference_Switch_Qsys</net_container>(MASTER)dppsn_demux_0.out3,(SLAVE)tx_fifo_3.in) 1 4 1 1240
+preplace netloc POINT_TO_POINT<net_container>DE5_Reference_Switch_Qsys</net_container>(SLAVE)tx_fifo_0.in,(MASTER)dppsn_demux_0.out0) 1 4 1 1240
+preplace netloc POINT_TO_POINT<net_container>DE5_Reference_Switch_Qsys</net_container>(SLAVE)dppsn_scheduler_0.in3,(MASTER)rx_fifo_3.out) 1 2 4 NJ 790 NJ 790 NJ 790 1810
+preplace netloc POINT_TO_POINT<net_container>DE5_Reference_Switch_Qsys</net_container>(MASTER)dppsn_demux_0.out1,(SLAVE)tx_fifo_1.in) 1 4 1 1300
+preplace netloc EXPORT<net_container>DE5_Reference_Switch_Qsys</net_container>(SLAVE)DE5_Reference_Switch_Qsys.in_clk_125,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>DE5_Reference_Switch_Qsys</net_container>(SLAVE)dppsn_demux_0.csr,(SLAVE)eth_10g_mac_3.csr,(SLAVE)dppsn_match_action_table_0.csr,(SLAVE)dppsn_header_parser_0.csr,(SLAVE)eth_10g_mac_0.csr,(SLAVE)eth_10g_mac_1.csr,(SLAVE)eth_10g_mac_2.csr,(SLAVE)dppsn_scheduler_0.csr,(MASTER)jtag_master_0.master) 1 3 4 860 580 NJ 500 1730 520 2290
+preplace netloc EXPORT<net_container>DE5_Reference_Switch_Qsys</net_container>(SLAVE)DE5_Reference_Switch_Qsys.in_reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>DE5_Reference_Switch_Qsys</net_container>(SLAVE)rx_fifo_3.in,(MASTER)eth_10g_mac_3.avalon_st_rx) 1 1 7 400 1360 NJ 1360 NJ 1360 NJ 1360 NJ 1360 NJ 1360 2670
+preplace netloc POINT_TO_POINT<net_container>DE5_Reference_Switch_Qsys</net_container>(MASTER)tx_fifo_2.out,(SLAVE)eth_10g_mac_2.avalon_st_tx) 1 5 2 NJ 890 NJ
+preplace netloc POINT_TO_POINT<net_container>DE5_Reference_Switch_Qsys</net_container>(SLAVE)tx_fifo_2.in,(MASTER)dppsn_demux_0.out2) 1 4 1 1300
+preplace netloc EXPORT<net_container>DE5_Reference_Switch_Qsys</net_container>(SLAVE)eth_10g_mac_1.xgmii_rx,(SLAVE)DE5_Reference_Switch_Qsys.eth_10g_mac_1_xgmii_rx) 1 0 7 NJ 610 NJ 610 NJ 610 NJ 420 NJ 520 NJ 500 NJ
+preplace netloc POINT_TO_POINT<net_container>DE5_Reference_Switch_Qsys</net_container>(MASTER)dppsn_scheduler_0.out,(SLAVE)dppsn_header_parser_0.in) 1 6 1 2150
+preplace netloc FAN_OUT<net_container>DE5_Reference_Switch_Qsys</net_container>(SLAVE)rx_fifo_2.clk,(SLAVE)tx_fifo_2.clk,(SLAVE)eth_10g_mac_0.rx_clk,(SLAVE)eth_10g_mac_1.tx_clk,(SLAVE)eth_10g_mac_2.tx_clk,(SLAVE)rx_fifo_3.clk,(SLAVE)dppsn_demux_0.clk,(SLAVE)rx_fifo_1.clk,(SLAVE)rx_fifo_0.clk,(SLAVE)eth_10g_mac_0.tx_clk,(SLAVE)tx_fifo_0.clk,(SLAVE)eth_10g_mac_3.tx_clk,(SLAVE)dppsn_match_action_table_0.clk,(SLAVE)eth_10g_mac_2.rx_clk,(SLAVE)dppsn_header_parser_0.clk,(SLAVE)eth_10g_mac_1.rx_clk,(SLAVE)dppsn_scheduler_0.clk,(SLAVE)eth_10g_mac_3.rx_clk,(MASTER)clock_bridge_0.out_clk,(SLAVE)tx_fifo_3.clk,(SLAVE)tx_fifo_1.clk) 1 1 6 380 520 NJ 520 780 600 1360 640 1790 560 2170
+preplace netloc POINT_TO_POINT<net_container>DE5_Reference_Switch_Qsys</net_container>(MASTER)eth_10g_mac_2.avalon_st_rx,(SLAVE)rx_fifo_2.in) 1 1 7 400 730 NJ 730 NJ 760 NJ 760 NJ 820 NJ 820 2670
+preplace netloc EXPORT<net_container>DE5_Reference_Switch_Qsys</net_container>(MASTER)DE5_Reference_Switch_Qsys.eth_10g_mac_0_xgmii_tx,(MASTER)eth_10g_mac_0.xgmii_tx) 1 7 1 NJ
+preplace netloc POINT_TO_POINT<net_container>DE5_Reference_Switch_Qsys</net_container>(MASTER)rx_fifo_2.out,(SLAVE)dppsn_scheduler_0.in2) 1 2 4 NJ 670 NJ 680 NJ 740 NJ
+preplace netloc EXPORT<net_container>DE5_Reference_Switch_Qsys</net_container>(SLAVE)eth_10g_mac_2.xgmii_rx,(SLAVE)DE5_Reference_Switch_Qsys.eth_10g_mac_2_xgmii_rx) 1 0 7 NJ 1050 NJ 1050 NJ 1050 NJ 1050 NJ 1050 NJ 1050 NJ
+preplace netloc EXPORT<net_container>DE5_Reference_Switch_Qsys</net_container>(MASTER)DE5_Reference_Switch_Qsys.jtag_master_0_master_reset,(MASTER)jtag_master_0.master_reset) 1 5 3 NJ 540 NJ 760 NJ
+preplace netloc EXPORT<net_container>DE5_Reference_Switch_Qsys</net_container>(MASTER)DE5_Reference_Switch_Qsys.eth_10g_mac_3_xgmii_tx,(MASTER)eth_10g_mac_3.xgmii_tx) 1 7 1 NJ
+preplace netloc EXPORT<net_container>DE5_Reference_Switch_Qsys</net_container>(MASTER)eth_10g_mac_2.xgmii_tx,(MASTER)DE5_Reference_Switch_Qsys.eth_10g_mac_2_xgmii_tx) 1 7 1 NJ
+preplace netloc POINT_TO_POINT<net_container>DE5_Reference_Switch_Qsys</net_container>(SLAVE)rx_fifo_0.in,(MASTER)eth_10g_mac_0.avalon_st_rx) 1 1 7 400 420 NJ 410 NJ 400 NJ 400 NJ 320 NJ 480 2690
+preplace netloc EXPORT<net_container>DE5_Reference_Switch_Qsys</net_container>(SLAVE)eth_10g_mac_0.xgmii_rx,(SLAVE)DE5_Reference_Switch_Qsys.eth_10g_mac_0_xgmii_rx) 1 0 7 NJ 240 NJ 240 NJ 240 NJ 240 NJ 240 NJ 240 NJ
+preplace netloc POINT_TO_POINT<net_container>DE5_Reference_Switch_Qsys</net_container>(SLAVE)rx_fifo_1.in,(MASTER)eth_10g_mac_1.avalon_st_rx) 1 1 7 400 400 NJ 380 NJ 380 NJ 380 NJ 300 NJ 460 2670
+preplace netloc EXPORT<net_container>DE5_Reference_Switch_Qsys</net_container>(SLAVE)DE5_Reference_Switch_Qsys.eth_10g_mac_3_xgmii_rx,(SLAVE)eth_10g_mac_3.xgmii_rx) 1 0 7 NJ 1310 NJ 1310 NJ 1310 NJ 1310 NJ 1310 NJ 1310 NJ
+preplace netloc POINT_TO_POINT<net_container>DE5_Reference_Switch_Qsys</net_container>(MASTER)tx_fifo_1.out,(SLAVE)eth_10g_mac_1.avalon_st_tx) 1 5 2 1810 480 NJ
+preplace netloc FAN_OUT<net_container>DE5_Reference_Switch_Qsys</net_container>(SLAVE)tx_fifo_3.clk_reset,(SLAVE)eth_10g_mac_3.csr_reset,(SLAVE)eth_10g_mac_2.rx_reset,(SLAVE)dppsn_scheduler_0.csr_reset,(SLAVE)eth_10g_mac_0.tx_reset,(SLAVE)eth_10g_mac_1.rx_reset,(SLAVE)dppsn_match_action_table_0.reset,(SLAVE)tx_fifo_0.clk_reset,(SLAVE)jtag_master_0.clk_reset,(SLAVE)rx_fifo_2.clk_reset,(SLAVE)eth_10g_mac_2.tx_reset,(MASTER)clk_0.clk_reset,(SLAVE)dppsn_header_parser_0.reset,(SLAVE)tx_fifo_2.clk_reset,(SLAVE)tx_fifo_1.clk_reset,(SLAVE)eth_10g_mac_1.csr_reset,(SLAVE)eth_10g_mac_1.tx_reset,(SLAVE)rx_fifo_3.clk_reset,(SLAVE)eth_10g_mac_0.csr_reset,(SLAVE)eth_10g_mac_3.rx_reset,(SLAVE)dppsn_header_parser_0.csr_reset,(SLAVE)eth_10g_mac_3.tx_reset,(SLAVE)rx_fifo_1.clk_reset,(SLAVE)dppsn_scheduler_0.reset,(SLAVE)rx_fifo_0.clk_reset,(SLAVE)eth_10g_mac_0.rx_reset,(SLAVE)dppsn_demux_0.csr_reset,(SLAVE)dppsn_match_action_table_0.csr_reset,(SLAVE)eth_10g_mac_2.csr_reset,(SLAVE)dppsn_demux_0.reset) 1 1 6 360 560 NJ 560 820 640 1380 680 1850 600 2230
+preplace netloc POINT_TO_POINT<net_container>DE5_Reference_Switch_Qsys</net_container>(MASTER)tx_fifo_0.out,(SLAVE)eth_10g_mac_0.avalon_st_tx) 1 5 2 NJ 260 2150
+preplace netloc EXPORT<net_container>DE5_Reference_Switch_Qsys</net_container>(SLAVE)DE5_Reference_Switch_Qsys.phy_clk156,(SLAVE)clock_bridge_0.in_clk) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>DE5_Reference_Switch_Qsys</net_container>(SLAVE)jtag_master_0.clk,(SLAVE)eth_10g_mac_1.csr_clk,(SLAVE)dppsn_scheduler_0.csr_clk,(SLAVE)eth_10g_mac_0.csr_clk,(MASTER)clk_0.clk,(SLAVE)eth_10g_mac_2.csr_clk,(SLAVE)eth_10g_mac_3.csr_clk,(SLAVE)dppsn_demux_0.csr_clk,(SLAVE)dppsn_match_action_table_0.csr_clk,(SLAVE)dppsn_header_parser_0.csr_clk) 1 1 6 400 540 NJ 540 800 620 1400 660 1830 580 2250
+preplace netloc EXPORT<net_container>DE5_Reference_Switch_Qsys</net_container>(MASTER)DE5_Reference_Switch_Qsys.eth_10g_mac_1_xgmii_tx,(MASTER)eth_10g_mac_1.xgmii_tx) 1 7 1 NJ
+preplace netloc POINT_TO_POINT<net_container>DE5_Reference_Switch_Qsys</net_container>(SLAVE)dppsn_scheduler_0.in0,(MASTER)rx_fifo_0.out) 1 2 4 590 590 NJ 660 NJ 700 NJ
+preplace netloc POINT_TO_POINT<net_container>DE5_Reference_Switch_Qsys</net_container>(SLAVE)dppsn_demux_0.in,(MASTER)dppsn_header_parser_0.out) 1 3 5 840 360 NJ 360 NJ 280 NJ 440 2670
+levelinfo -pg 1 0 150 2900
+levelinfo -hier DE5_Reference_Switch_Qsys 160 190 470 700 1110 1510 1990 2430 2710

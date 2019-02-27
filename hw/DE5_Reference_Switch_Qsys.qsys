@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system name="$${FILENAME}">
+ <component
+   name="$${FILENAME}"
+   displayName="$${FILENAME}"
+   version="1.0"
+   description=""
+   tags=""
+   categories="System" />
+ <parameter name="bonusData"><![CDATA[bonusData 
+{
+   element DE5_Reference_Switch_Qsys
+   {
+      datum _originalDeviceFamily
+      {
+         value = "Stratix V";
+         type = "String";
+      }
+   }
+   element DE5_Reference_Switch_Qsys
+   {
+      datum _originalDeviceFamily
+      {
+         value = "Stratix V";
+         type = "String";
+      }
+   }
+   element DE5_Reference_Switch_Qsys
+   {
+      datum _originalDeviceFamily
+      {
+         value = "Stratix V";
+         type = "String";
+      }
+   }
+   element DE5_Reference_Switch_Qsys
+   {
+      datum _originalDeviceFamily
+      {
+         value = "Stratix V";
+         type = "String";
+      }
+   }
+   element DE5_Reference_Switch_Qsys
+   {
+      datum _originalDeviceFamily
+      {
+         value = "Stratix V";
+         type = "String";
+      }
+   }
+   element DE5_Reference_Switch_Qsys
+   {
+      datum _originalDeviceFamily
+      {
+         value = "Stratix V";
+         type = "String";
+      }
+   }
+   element clk_0
+   {
+      datum _sortIndex
+      {
+         value = "1";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element clock_bridge_0
+   {
+      datum _sortIndex
+      {
+         value = "2";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element dppsn_demux_0
+   {
+      datum _sortIndex
+      {
+         value = "18";
+         type = "int";
+      }
+   }
+   element dppsn_header_parser_0
+   {
+      datum _sortIndex
+      {
+         value = "16";
+         type = "int";
+      }
+   }
+   element dppsn_match_action_table_0
+   {
+      datum _sortIndex
+      {
+         value = "17";
+         type = "int";
+      }
+   }
+   element dppsn_scheduler_0
+   {
+      datum _sortIndex
+      {
+         value = "15";
+         type = "int";
+      }
+   }
+   element eth_10g_mac_0
+   {
+      datum _sortIndex
+      {
+         value = "3";
+         type = "int";
+      }
+   }
+   element eth_10g_mac_1
+   {
+      datum _sortIndex
+      {
+         value = "4";
+         type = "int";
+      }
+   }
+   element eth_10g_mac_2
+   {
+      datum _sortIndex
+      {
+         value = "5";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element eth_10g_mac_3
+   {
+      datum _sortIndex
+      {
+         value = "6";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element jtag_master_0
+   {
+      datum _sortIndex
+      {
+         value = "0";
+         type = "int";
+      }
+      datum sopceditor_expanded
+      {
+         value = "1";
+         type = "boolean";
+      }
+   }
+   element rx_fifo_0
+   {
+      datum _sortIndex
+      {
+         value = "7";
+         type = "int";
+      }
+   }
+   element rx_fifo_1
+   {
+      datum _sortIndex
+      {
+         value = "8";
+         type = "int";
+      }
+   }
+   element rx_fifo_2
+   {
+      datum _sortIndex
+      {
+         value = "9";
+         type = "int";
+      }
+   }
+   element rx_fifo_3
+   {
+      datum _sortIndex
+      {
+         value = "10";
+         type = "int";
+      }
+   }
+   element tx_fifo_0
+   {
+      datum _sortIndex
+      {
+         value = "11";
+         type = "int";
+      }
+   }
+   element tx_fifo_1
+   {
+      datum _sortIndex
+      {
+         value = "12";
+         type = "int";
+      }
+   }
+   element tx_fifo_2
+   {
+      datum _sortIndex
+      {
+         value = "13";
+         type = "int";
+      }
+   }
+   element tx_fifo_3
+   {
+      datum _sortIndex
+      {
+         value = "14";
+         type = "int";
+      }
+   }
+}
+]]></parameter>
+ <parameter name="clockCrossingAdapter" value="HANDSHAKE" />
+ <parameter name="device" value="5SGXEA7N2F45C2" />
+ <parameter name="deviceFamily" value="Stratix V" />
+ <parameter name="deviceSpeedGrade" value="2_H2" />
+ <parameter name="fabricMode" value="QSYS" />
+ <parameter name="generateLegacySim" value="false" />
+ <parameter name="generationId" value="0" />
+ <parameter name="globalResetBus" value="false" />
+ <parameter name="hdlLanguage" value="VERILOG" />
+ <parameter name="hideFromIPCatalog" value="false" />
+ <parameter name="lockedInterfaceDefinition" value="" />
+ <parameter name="maxAdditionalLatency" value="1" />
+ <parameter name="projectName">DE5_Reference_Switch.qpf</parameter>
+ <parameter name="sopcBorderPoints" value="false" />
+ <parameter name="systemHash" value="0" />
+ <parameter name="testBenchDutName" value="" />
+ <parameter name="timeStamp" value="0" />
+ <parameter name="useTestBenchNamingPattern" value="false" />
+ <instanceScript></instanceScript>
+ <interface
+   name="eth_10g_mac_0_xgmii_rx"
+   internal="eth_10g_mac_0.xgmii_rx"
+   type="avalon_streaming"
+   dir="end" />
+ <interface
+   name="eth_10g_mac_0_xgmii_tx"
+   internal="eth_10g_mac_0.xgmii_tx"
+   type="avalon_streaming"
+   dir="start" />
+ <interface
+   name="eth_10g_mac_1_xgmii_rx"
+   internal="eth_10g_mac_1.xgmii_rx"
+   type="avalon_streaming"
+   dir="end" />
+ <interface
+   name="eth_10g_mac_1_xgmii_tx"
+   internal="eth_10g_mac_1.xgmii_tx"
+   type="avalon_streaming"
+   dir="start" />
+ <interface
+   name="eth_10g_mac_2_xgmii_rx"
+   internal="eth_10g_mac_2.xgmii_rx"
+   type="avalon_streaming"
+   dir="end" />
+ <interface
+   name="eth_10g_mac_2_xgmii_tx"
+   internal="eth_10g_mac_2.xgmii_tx"
+   type="avalon_streaming"
+   dir="start" />
+ <interface
+   name="eth_10g_mac_3_xgmii_rx"
+   internal="eth_10g_mac_3.xgmii_rx"
+   type="avalon_streaming"
+   dir="end" />
+ <interface
+   name="eth_10g_mac_3_xgmii_tx"
+   internal="eth_10g_mac_3.xgmii_tx"
+   type="avalon_streaming"
+   dir="start" />
+ <interface name="in_clk_125" internal="clk_0.clk_in" type="clock" dir="end" />
+ <interface name="in_reset" internal="clk_0.clk_in_reset" type="reset" dir="end" />
+ <interface
+   name="jtag_master_0_master_reset"
+   internal="jtag_master_0.master_reset"
+   type="reset"
+   dir="start" />
+ <interface
+   name="phy_clk156"
+   internal="clock_bridge_0.in_clk"
+   type="clock"
+   dir="end" />
+ <module name="clk_0" kind="clock_source" version="16.1" enabled="1">
+  <parameter name="clockFrequency" value="156250000" />
+  <parameter name="clockFrequencyKnown" value="true" />
+  <parameter name="inputClockFrequency" value="0" />
+  <parameter name="resetSynchronousEdges" value="NONE" />
+ </module>
+ <module
+   name="clock_bridge_0"
+   kind="altera_clock_bridge"
+   version="16.1"
+   enabled="1">
+  <parameter name="DERIVED_CLOCK_RATE" value="0" />
+  <parameter name="EXPLICIT_CLOCK_RATE" value="156250000" />
+  <parameter name="NUM_CLOCK_OUTPUTS" value="1" />
+ </module>
+ <module name="dppsn_demux_0" kind="dppsn_demux" version="1.0" enabled="1" />
+ <module
+   name="dppsn_header_parser_0"
+   kind="dppsn_header_parser"
+   version="1.0"
+   enabled="1" />
+ <module
+   name="dppsn_match_action_table_0"
+   kind="dppsn_match_action_table"
+   version="1.0"
+   enabled="1" />
+ <module
+   name="dppsn_scheduler_0"
+   kind="dppsn_scheduler"
+   version="1.0"
+   enabled="1" />
+ <module
+   name="eth_10g_mac_0"
+   kind="altera_eth_10g_mac"
+   version="16.1"
+   enabled="1">
+  <parameter name="AUTO_DEVICE" value="5SGXEA7N2F45C2" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2_H2" />
+  <parameter name="DATAPATH_OPTION" value="3" />
+  <parameter name="DEVICE_FAMILY" value="Stratix V" />
+  <parameter name="ENABLE_1G10G_MAC" value="0" />
+  <parameter name="ENABLE_PFC" value="0" />
+  <parameter name="ENABLE_PTP_1STEP" value="0" />
+  <parameter name="ENABLE_SUPP_ADDR" value="1" />
+  <parameter name="ENABLE_TIMESTAMPING" value="0" />
+  <parameter name="ENABLE_UNIDIRECTIONAL" value="0" />
+  <parameter name="INSTANTIATE_STATISTICS" value="1" />
+  <parameter name="INSTANTIATE_TX_CRC" value="1" />
+  <parameter name="PFC_PRIORITY_NUM" value="8" />
+  <parameter name="PREAMBLE_PASSTHROUGH" value="0" />
+  <parameter name="REGISTER_BASED_STATISTICS" value="0" />
+  <parameter name="TSTAMP_FP_WIDTH" value="4" />
+ </module>
+ <module
+   name="eth_10g_mac_1"
+   kind="altera_eth_10g_mac"
+   version="16.1"
+   enabled="1">
+  <parameter name="AUTO_DEVICE" value="5SGXEA7N2F45C2" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2_H2" />
+  <parameter name="DATAPATH_OPTION" value="3" />
+  <parameter name="DEVICE_FAMILY" value="Stratix V" />
+  <parameter name="ENABLE_1G10G_MAC" value="0" />
+  <parameter name="ENABLE_PFC" value="0" />
+  <parameter name="ENABLE_PTP_1STEP" value="0" />
+  <parameter name="ENABLE_SUPP_ADDR" value="1" />
+  <parameter name="ENABLE_TIMESTAMPING" value="0" />
+  <parameter name="ENABLE_UNIDIRECTIONAL" value="0" />
+  <parameter name="INSTANTIATE_STATISTICS" value="1" />
+  <parameter name="INSTANTIATE_TX_CRC" value="1" />
+  <parameter name="PFC_PRIORITY_NUM" value="8" />
+  <parameter name="PREAMBLE_PASSTHROUGH" value="0" />
+  <parameter name="REGISTER_BASED_STATISTICS" value="0" />
+  <parameter name="TSTAMP_FP_WIDTH" value="4" />
+ </module>
+ <module
+   name="eth_10g_mac_2"
+   kind="altera_eth_10g_mac"
+   version="16.1"
+   enabled="1">
+  <parameter name="AUTO_DEVICE" value="5SGXEA7N2F45C2" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2_H2" />
+  <parameter name="DATAPATH_OPTION" value="3" />
+  <parameter name="DEVICE_FAMILY" value="Stratix V" />
+  <parameter name="ENABLE_1G10G_MAC" value="0" />
+  <parameter name="ENABLE_PFC" value="0" />
+  <parameter name="ENABLE_PTP_1STEP" value="0" />
+  <parameter name="ENABLE_SUPP_ADDR" value="1" />
+  <parameter name="ENABLE_TIMESTAMPING" value="0" />
+  <parameter name="ENABLE_UNIDIRECTIONAL" value="0" />
+  <parameter name="INSTANTIATE_STATISTICS" value="1" />
+  <parameter name="INSTANTIATE_TX_CRC" value="1" />
+  <parameter name="PFC_PRIORITY_NUM" value="8" />
+  <parameter name="PREAMBLE_PASSTHROUGH" value="0" />
+  <parameter name="REGISTER_BASED_STATISTICS" value="0" />
+  <parameter name="TSTAMP_FP_WIDTH" value="4" />
+ </module>
+ <module
+   name="eth_10g_mac_3"
+   kind="altera_eth_10g_mac"
+   version="16.1"
+   enabled="1">
+  <parameter name="AUTO_DEVICE" value="5SGXEA7N2F45C2" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2_H2" />
+  <parameter name="DATAPATH_OPTION" value="3" />
+  <parameter name="DEVICE_FAMILY" value="Stratix V" />
+  <parameter name="ENABLE_1G10G_MAC" value="0" />
+  <parameter name="ENABLE_PFC" value="0" />
+  <parameter name="ENABLE_PTP_1STEP" value="0" />
+  <parameter name="ENABLE_SUPP_ADDR" value="1" />
+  <parameter name="ENABLE_TIMESTAMPING" value="0" />
+  <parameter name="ENABLE_UNIDIRECTIONAL" value="0" />
+  <parameter name="INSTANTIATE_STATISTICS" value="1" />
+  <parameter name="INSTANTIATE_TX_CRC" value="1" />
+  <parameter name="PFC_PRIORITY_NUM" value="8" />
+  <parameter name="PREAMBLE_PASSTHROUGH" value="0" />
+  <parameter name="REGISTER_BASED_STATISTICS" value="0" />
+  <parameter name="TSTAMP_FP_WIDTH" value="4" />
+ </module>
+ <module
+   name="jtag_master_0"
+   kind="altera_jtag_avalon_master"
+   version="16.1"
+   enabled="1">
+  <parameter name="AUTO_DEVICE" value="5SGXEA7N2F45C2" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Stratix V" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2_H2" />
+  <parameter name="COMPONENT_CLOCK" value="0" />
+  <parameter name="FAST_VER" value="0" />
+  <parameter name="FIFO_DEPTHS" value="2" />
+  <parameter name="PLI_PORT" value="50000" />
+  <parameter name="USE_PLI" value="0" />
+ </module>
+ <module
+   name="rx_fifo_0"
+   kind="altera_avalon_sc_fifo"
+   version="16.1"
+   enabled="1">
+  <parameter name="BITS_PER_SYMBOL" value="8" />
+  <parameter name="CHANNEL_WIDTH" value="0" />
+  <parameter name="EMPTY_LATENCY" value="3" />
+  <parameter name="ENABLE_EXPLICIT_MAXCHANNEL" value="false" />
+  <parameter name="ERROR_WIDTH" value="0" />
+  <parameter name="EXPLICIT_MAXCHANNEL" value="0" />
+  <parameter name="FIFO_DEPTH" value="512" />
+  <parameter name="SYMBOLS_PER_BEAT" value="8" />
+  <parameter name="USE_ALMOST_EMPTY_IF" value="0" />
+  <parameter name="USE_ALMOST_FULL_IF" value="0" />
+  <parameter name="USE_FILL_LEVEL" value="0" />
+  <parameter name="USE_MEMORY_BLOCKS" value="1" />
+  <parameter name="USE_PACKETS" value="1" />
+  <parameter name="USE_STORE_FORWARD" value="0" />
+ </module>
+ <module
+   name="rx_fifo_1"
+   kind="altera_avalon_sc_fifo"
+   version="16.1"
+   enabled="1">
+  <parameter name="BITS_PER_SYMBOL" value="8" />
+  <parameter name="CHANNEL_WIDTH" value="0" />
+  <parameter name="EMPTY_LATENCY" value="3" />
+  <parameter name="ENABLE_EXPLICIT_MAXCHANNEL" value="false" />
+  <parameter name="ERROR_WIDTH" value="0" />
+  <parameter name="EXPLICIT_MAXCHANNEL" value="0" />
+  <parameter name="FIFO_DEPTH" value="512" />
+  <parameter name="SYMBOLS_PER_BEAT" value="8" />
+  <parameter name="USE_ALMOST_EMPTY_IF" value="0" />
+  <parameter name="USE_ALMOST_FULL_IF" value="0" />
+  <parameter name="USE_FILL_LEVEL" value="0" />
+  <parameter name="USE_MEMORY_BLOCKS" value="1" />
+  <parameter name="USE_PACKETS" value="1" />
+  <parameter name="USE_STORE_FORWARD" value="0" />
+ </module>
+ <module
+   name="rx_fifo_2"
+   kind="altera_avalon_sc_fifo"
+   version="16.1"
+   enabled="1">
+  <parameter name="BITS_PER_SYMBOL" value="8" />
+  <parameter name="CHANNEL_WIDTH" value="0" />
+  <parameter name="EMPTY_LATENCY" value="3" />
+  <parameter name="ENABLE_EXPLICIT_MAXCHANNEL" value="false" />
+  <parameter name="ERROR_WIDTH" value="0" />
+  <parameter name="EXPLICIT_MAXCHANNEL" value="0" />
+  <parameter name="FIFO_DEPTH" value="512" />
+  <parameter name="SYMBOLS_PER_BEAT" value="8" />
+  <parameter name="USE_ALMOST_EMPTY_IF" value="0" />
+  <parameter name="USE_ALMOST_FULL_IF" value="0" />
+  <parameter name="USE_FILL_LEVEL" value="0" />
+  <parameter name="USE_MEMORY_BLOCKS" value="1" />
+  <parameter name="USE_PACKETS" value="1" />
+  <parameter name="USE_STORE_FORWARD" value="0" />
+ </module>
+ <module
+   name="rx_fifo_3"
+   kind="altera_avalon_sc_fifo"
+   version="16.1"
+   enabled="1">
+  <parameter name="BITS_PER_SYMBOL" value="8" />
+  <parameter name="CHANNEL_WIDTH" value="0" />
+  <parameter name="EMPTY_LATENCY" value="3" />
+  <parameter name="ENABLE_EXPLICIT_MAXCHANNEL" value="false" />
+  <parameter name="ERROR_WIDTH" value="0" />
+  <parameter name="EXPLICIT_MAXCHANNEL" value="0" />
+  <parameter name="FIFO_DEPTH" value="512" />
+  <parameter name="SYMBOLS_PER_BEAT" value="8" />
+  <parameter name="USE_ALMOST_EMPTY_IF" value="0" />
+  <parameter name="USE_ALMOST_FULL_IF" value="0" />
+  <parameter name="USE_FILL_LEVEL" value="0" />
+  <parameter name="USE_MEMORY_BLOCKS" value="1" />
+  <parameter name="USE_PACKETS" value="1" />
+  <parameter name="USE_STORE_FORWARD" value="0" />
+ </module>
+ <module
+   name="tx_fifo_0"
+   kind="altera_avalon_sc_fifo"
+   version="16.1"
+   enabled="1">
+  <parameter name="BITS_PER_SYMBOL" value="8" />
+  <parameter name="CHANNEL_WIDTH" value="0" />
+  <parameter name="EMPTY_LATENCY" value="3" />
+  <parameter name="ENABLE_EXPLICIT_MAXCHANNEL" value="false" />
+  <parameter name="ERROR_WIDTH" value="0" />
+  <parameter name="EXPLICIT_MAXCHANNEL" value="0" />
+  <parameter name="FIFO_DEPTH" value="512" />
+  <parameter name="SYMBOLS_PER_BEAT" value="8" />
+  <parameter name="USE_ALMOST_EMPTY_IF" value="0" />
+  <parameter name="USE_ALMOST_FULL_IF" value="0" />
+  <parameter name="USE_FILL_LEVEL" value="0" />
+  <parameter name="USE_MEMORY_BLOCKS" value="1" />
+  <parameter name="USE_PACKETS" value="1" />
+  <parameter name="USE_STORE_FORWARD" value="0" />
+ </module>
+ <module
+   name="tx_fifo_1"
+   kind="altera_avalon_sc_fifo"
+   version="16.1"
+   enabled="1">
+  <parameter name="BITS_PER_SYMBOL" value="8" />
+  <parameter name="CHANNEL_WIDTH" value="0" />
+  <parameter name="EMPTY_LATENCY" value="3" />
+  <parameter name="ENABLE_EXPLICIT_MAXCHANNEL" value="false" />
+  <parameter name="ERROR_WIDTH" value="0" />
+  <parameter name="EXPLICIT_MAXCHANNEL" value="0" />
+  <parameter name="FIFO_DEPTH" value="512" />
+  <parameter name="SYMBOLS_PER_BEAT" value="8" />
+  <parameter name="USE_ALMOST_EMPTY_IF" value="0" />
+  <parameter name="USE_ALMOST_FULL_IF" value="0" />
+  <parameter name="USE_FILL_LEVEL" value="0" />
+  <parameter name="USE_MEMORY_BLOCKS" value="1" />
+  <parameter name="USE_PACKETS" value="1" />
+  <parameter name="USE_STORE_FORWARD" value="0" />
+ </module>
+ <module
+   name="tx_fifo_2"
+   kind="altera_avalon_sc_fifo"
+   version="16.1"
+   enabled="1">
+  <parameter name="BITS_PER_SYMBOL" value="8" />
+  <parameter name="CHANNEL_WIDTH" value="0" />
+  <parameter name="EMPTY_LATENCY" value="3" />
+  <parameter name="ENABLE_EXPLICIT_MAXCHANNEL" value="false" />
+  <parameter name="ERROR_WIDTH" value="0" />
+  <parameter name="EXPLICIT_MAXCHANNEL" value="0" />
+  <parameter name="FIFO_DEPTH" value="512" />
+  <parameter name="SYMBOLS_PER_BEAT" value="8" />
+  <parameter name="USE_ALMOST_EMPTY_IF" value="0" />
+  <parameter name="USE_ALMOST_FULL_IF" value="0" />
+  <parameter name="USE_FILL_LEVEL" value="0" />
+  <parameter name="USE_MEMORY_BLOCKS" value="1" />
+  <parameter name="USE_PACKETS" value="1" />
+  <parameter name="USE_STORE_FORWARD" value="0" />
+ </module>
+ <module
+   name="tx_fifo_3"
+   kind="altera_avalon_sc_fifo"
+   version="16.1"
+   enabled="1">
+  <parameter name="BITS_PER_SYMBOL" value="8" />
+  <parameter name="CHANNEL_WIDTH" value="0" />
+  <parameter name="EMPTY_LATENCY" value="3" />
+  <parameter name="ENABLE_EXPLICIT_MAXCHANNEL" value="false" />
+  <parameter name="ERROR_WIDTH" value="0" />
+  <parameter name="EXPLICIT_MAXCHANNEL" value="0" />
+  <parameter name="FIFO_DEPTH" value="512" />
+  <parameter name="SYMBOLS_PER_BEAT" value="8" />
+  <parameter name="USE_ALMOST_EMPTY_IF" value="0" />
+  <parameter name="USE_ALMOST_FULL_IF" value="0" />
+  <parameter name="USE_FILL_LEVEL" value="0" />
+  <parameter name="USE_MEMORY_BLOCKS" value="1" />
+  <parameter name="USE_PACKETS" value="1" />
+  <parameter name="USE_STORE_FORWARD" value="0" />
+ </module>
+ <connection
+   kind="avalon"
+   version="16.1"
+   start="jtag_master_0.master"
+   end="eth_10g_mac_0.csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="16.1"
+   start="jtag_master_0.master"
+   end="eth_10g_mac_1.csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x8000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="16.1"
+   start="jtag_master_0.master"
+   end="eth_10g_mac_2.csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00010000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="16.1"
+   start="jtag_master_0.master"
+   end="eth_10g_mac_3.csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00018000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="16.1"
+   start="jtag_master_0.master"
+   end="dppsn_demux_0.csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00050000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="16.1"
+   start="jtag_master_0.master"
+   end="dppsn_header_parser_0.csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00030000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="16.1"
+   start="jtag_master_0.master"
+   end="dppsn_scheduler_0.csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00020000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="16.1"
+   start="jtag_master_0.master"
+   end="dppsn_match_action_table_0.csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00040000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon_streaming"
+   version="16.1"
+   start="eth_10g_mac_0.avalon_st_rx"
+   end="rx_fifo_0.in" />
+ <connection
+   kind="avalon_streaming"
+   version="16.1"
+   start="eth_10g_mac_1.avalon_st_rx"
+   end="rx_fifo_1.in" />
+ <connection
+   kind="avalon_streaming"
+   version="16.1"
+   start="eth_10g_mac_2.avalon_st_rx"
+   end="rx_fifo_2.in" />
+ <connection
+   kind="avalon_streaming"
+   version="16.1"
+   start="eth_10g_mac_3.avalon_st_rx"
+   end="rx_fifo_3.in" />
+ <connection
+   kind="avalon_streaming"
+   version="16.1"
+   start="tx_fifo_0.out"
+   end="eth_10g_mac_0.avalon_st_tx" />
+ <connection
+   kind="avalon_streaming"
+   version="16.1"
+   start="tx_fifo_1.out"
+   end="eth_10g_mac_1.avalon_st_tx" />
+ <connection
+   kind="avalon_streaming"
+   version="16.1"
+   start="tx_fifo_2.out"
+   end="eth_10g_mac_2.avalon_st_tx" />
+ <connection
+   kind="avalon_streaming"
+   version="16.1"
+   start="tx_fifo_3.out"
+   end="eth_10g_mac_3.avalon_st_tx" />
+ <connection
+   kind="avalon_streaming"
+   version="16.1"
+   start="dppsn_scheduler_0.out"
+   end="dppsn_header_parser_0.in" />
+ <connection
+   kind="avalon_streaming"
+   version="16.1"
+   start="dppsn_header_parser_0.out"
+   end="dppsn_match_action_table_0.in" />
+ <connection
+   kind="avalon_streaming"
+   version="16.1"
+   start="dppsn_match_action_table_0.out"
+   end="dppsn_demux_0.in" />
+ <connection
+   kind="avalon_streaming"
+   version="16.1"
+   start="rx_fifo_0.out"
+   end="dppsn_scheduler_0.in0" />
+ <connection
+   kind="avalon_streaming"
+   version="16.1"
+   start="rx_fifo_1.out"
+   end="dppsn_scheduler_0.in1" />
+ <connection
+   kind="avalon_streaming"
+   version="16.1"
+   start="rx_fifo_2.out"
+   end="dppsn_scheduler_0.in2" />
+ <connection
+   kind="avalon_streaming"
+   version="16.1"
+   start="rx_fifo_3.out"
+   end="dppsn_scheduler_0.in3" />
+ <connection
+   kind="avalon_streaming"
+   version="16.1"
+   start="dppsn_demux_0.out0"
+   end="tx_fifo_0.in" />
+ <connection
+   kind="avalon_streaming"
+   version="16.1"
+   start="dppsn_demux_0.out1"
+   end="tx_fifo_1.in" />
+ <connection
+   kind="avalon_streaming"
+   version="16.1"
+   start="dppsn_demux_0.out2"
+   end="tx_fifo_2.in" />
+ <connection
+   kind="avalon_streaming"
+   version="16.1"
+   start="dppsn_demux_0.out3"
+   end="tx_fifo_3.in" />
+ <connection kind="clock" version="16.1" start="clk_0.clk" end="jtag_master_0.clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clk_0.clk"
+   end="eth_10g_mac_2.csr_clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clk_0.clk"
+   end="eth_10g_mac_3.csr_clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clk_0.clk"
+   end="eth_10g_mac_1.csr_clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clk_0.clk"
+   end="eth_10g_mac_0.csr_clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clk_0.clk"
+   end="dppsn_demux_0.csr_clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clk_0.clk"
+   end="dppsn_header_parser_0.csr_clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clk_0.clk"
+   end="dppsn_scheduler_0.csr_clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clk_0.clk"
+   end="dppsn_match_action_table_0.csr_clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clock_bridge_0.out_clk"
+   end="rx_fifo_0.clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clock_bridge_0.out_clk"
+   end="rx_fifo_1.clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clock_bridge_0.out_clk"
+   end="rx_fifo_2.clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clock_bridge_0.out_clk"
+   end="rx_fifo_3.clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clock_bridge_0.out_clk"
+   end="tx_fifo_0.clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clock_bridge_0.out_clk"
+   end="tx_fifo_1.clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clock_bridge_0.out_clk"
+   end="tx_fifo_2.clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clock_bridge_0.out_clk"
+   end="tx_fifo_3.clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clock_bridge_0.out_clk"
+   end="dppsn_demux_0.clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clock_bridge_0.out_clk"
+   end="dppsn_header_parser_0.clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clock_bridge_0.out_clk"
+   end="dppsn_scheduler_0.clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clock_bridge_0.out_clk"
+   end="dppsn_match_action_table_0.clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clock_bridge_0.out_clk"
+   end="eth_10g_mac_2.rx_clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clock_bridge_0.out_clk"
+   end="eth_10g_mac_3.rx_clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clock_bridge_0.out_clk"
+   end="eth_10g_mac_1.rx_clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clock_bridge_0.out_clk"
+   end="eth_10g_mac_0.rx_clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clock_bridge_0.out_clk"
+   end="eth_10g_mac_2.tx_clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clock_bridge_0.out_clk"
+   end="eth_10g_mac_3.tx_clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clock_bridge_0.out_clk"
+   end="eth_10g_mac_1.tx_clk" />
+ <connection
+   kind="clock"
+   version="16.1"
+   start="clock_bridge_0.out_clk"
+   end="eth_10g_mac_0.tx_clk" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="jtag_master_0.clk_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="rx_fifo_0.clk_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="rx_fifo_1.clk_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="rx_fifo_2.clk_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="rx_fifo_3.clk_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="tx_fifo_0.clk_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="tx_fifo_1.clk_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="tx_fifo_2.clk_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="tx_fifo_3.clk_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="eth_10g_mac_3.csr_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="eth_10g_mac_2.csr_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="eth_10g_mac_1.csr_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="eth_10g_mac_0.csr_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="dppsn_demux_0.csr_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="dppsn_header_parser_0.csr_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="dppsn_scheduler_0.csr_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="dppsn_match_action_table_0.csr_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="dppsn_demux_0.reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="dppsn_header_parser_0.reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="dppsn_scheduler_0.reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="dppsn_match_action_table_0.reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="eth_10g_mac_3.rx_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="eth_10g_mac_2.rx_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="eth_10g_mac_1.rx_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="eth_10g_mac_0.rx_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="eth_10g_mac_3.tx_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="eth_10g_mac_2.tx_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="eth_10g_mac_1.tx_reset" />
+ <connection
+   kind="reset"
+   version="16.1"
+   start="clk_0.clk_reset"
+   end="eth_10g_mac_0.tx_reset" />
+ <interconnectRequirement for="$system" name="qsys_mm.clockCrossingAdapter" value="HANDSHAKE" />
+ <interconnectRequirement for="$system" name="qsys_mm.insertDefaultSlave" value="false" />
+ <interconnectRequirement for="$system" name="qsys_mm.maxAdditionalLatency" value="1" />
+</system>

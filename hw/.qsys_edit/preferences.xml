@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable
+   filter="DE5_Reference_Switch_Qsys.in_clk_125 OR DE5_Reference_Switch_Qsys.phy_clk156"
+   showClockDomains="1"
+   showResetDomains="0">
+  <columns>
+   <connections preferredWidth="655" />
+   <irq preferredWidth="34" />
+   <export preferredWidth="218" />
+   <name preferredWidth="196" />
+  </columns>
+ </systemtable>
+ <library expandedCategories="Library,Project" />
+ <window width="1936" height="1056" x="-8" y="-8" />
+ <generation synthesis="VHDL" />
+</preferences>

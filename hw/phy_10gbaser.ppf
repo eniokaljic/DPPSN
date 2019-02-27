@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pinplan
+ variation_name="phy_10gbaser"
+ megafunction_name="ALTERA_XCVR_10GBASER"
+ intended_family="Stratix V"
+ specifies="all_ports">
+ <global>
+  <pin name="pll_ref_clk" direction="input" scope="external" />
+  <pin name="xgmii_rx_clk" direction="output" scope="external" />
+  <pin name="rx_block_lock[3..0]" direction="output" scope="external" />
+  <pin name="rx_hi_ber[3..0]" direction="output" scope="external" />
+  <pin name="tx_ready" direction="output" scope="external" />
+  <pin name="xgmii_tx_clk" direction="input" scope="external" />
+  <pin name="rx_ready" direction="output" scope="external" />
+  <pin name="rx_data_ready[3..0]" direction="output" scope="external" />
+  <pin name="xgmii_rx_dc_0[71..0]" direction="output" scope="external" />
+  <pin name="rx_serial_data_0" direction="input" scope="external" />
+  <pin name="xgmii_rx_dc_1[71..0]" direction="output" scope="external" />
+  <pin name="rx_serial_data_1" direction="input" scope="external" />
+  <pin name="xgmii_rx_dc_2[71..0]" direction="output" scope="external" />
+  <pin name="rx_serial_data_2" direction="input" scope="external" />
+  <pin name="xgmii_rx_dc_3[71..0]" direction="output" scope="external" />
+  <pin name="rx_serial_data_3" direction="input" scope="external" />
+  <pin name="xgmii_tx_dc_0[71..0]" direction="input" scope="external" />
+  <pin name="tx_serial_data_0" direction="output" scope="external" />
+  <pin name="xgmii_tx_dc_1[71..0]" direction="input" scope="external" />
+  <pin name="tx_serial_data_1" direction="output" scope="external" />
+  <pin name="xgmii_tx_dc_2[71..0]" direction="input" scope="external" />
+  <pin name="tx_serial_data_2" direction="output" scope="external" />
+  <pin name="xgmii_tx_dc_3[71..0]" direction="input" scope="external" />
+  <pin name="tx_serial_data_3" direction="output" scope="external" />
+  <pin name="reconfig_from_xcvr[367..0]" direction="output" scope="external" />
+  <pin name="reconfig_to_xcvr[559..0]" direction="input" scope="external" />
+  <pin name="phy_mgmt_clk" direction="input" scope="external" />
+  <pin name="phy_mgmt_clk_reset" direction="input" scope="external" />
+  <pin name="phy_mgmt_address[8..0]" direction="input" scope="external" />
+  <pin name="phy_mgmt_read" direction="input" scope="external" />
+  <pin name="phy_mgmt_readdata[31..0]" direction="output" scope="external" />
+  <pin name="phy_mgmt_write" direction="input" scope="external" />
+  <pin name="phy_mgmt_writedata[31..0]" direction="input" scope="external" />
+  <pin name="phy_mgmt_waitrequest" direction="output" scope="external" />
+ </global>
+</pinplan>
