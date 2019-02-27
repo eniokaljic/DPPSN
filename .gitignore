@@ -1,0 +1,10 @@
+/hw/db
+/hw/incremental_db
+/hw/DE5_Reference_Switch_Qsys
+/hw/simulation
+/hw/*.sof
+/hw/*.rpt
+/hw/*.stp
+/hw/*.summary
+/hw/*.smsg
+/hw/*.done
