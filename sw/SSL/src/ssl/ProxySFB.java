@@ -76,7 +76,7 @@ public class ProxySFB extends FSM implements IFSM {
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R1.MASK1", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x040, 0x18, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R1.MASK0", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x040, 0x1C, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R1.ACTION", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x040, 0x20, false, false));
-		parameters.add(new Parameter("MATCH_ACTION_TABLE.R1.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x040, 0x24, false, true));
+		parameters.add(new Parameter("MATCH_ACTION_TABLE.R1.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x040, 0x24, false, false));
 		
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R2.DATA3", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x080, 0x00, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R2.DATA2", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x080, 0x04, false, false));
@@ -98,7 +98,7 @@ public class ProxySFB extends FSM implements IFSM {
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R3.MASK1", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x0C0, 0x18, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R3.MASK0", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x0C0, 0x1C, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R3.ACTION", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x0C0, 0x20, false, false));
-		parameters.add(new Parameter("MATCH_ACTION_TABLE.R3.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x0C0, 0x24, false, true));
+		parameters.add(new Parameter("MATCH_ACTION_TABLE.R3.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x0C0, 0x24, false, false));
 		
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R4.DATA3", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x100, 0x00, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R4.DATA2", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x100, 0x04, false, false));
@@ -109,7 +109,7 @@ public class ProxySFB extends FSM implements IFSM {
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R4.MASK1", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x100, 0x18, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R4.MASK0", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x100, 0x1C, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R4.ACTION", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x100, 0x20, false, false));
-		parameters.add(new Parameter("MATCH_ACTION_TABLE.R4.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x100, 0x24, false, true));
+		parameters.add(new Parameter("MATCH_ACTION_TABLE.R4.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x100, 0x24, false, false));
 		
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R5.DATA3", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x140, 0x00, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R5.DATA2", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x140, 0x04, false, false));
@@ -120,7 +120,7 @@ public class ProxySFB extends FSM implements IFSM {
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R5.MASK1", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x140, 0x18, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R5.MASK0", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x140, 0x1C, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R5.ACTION", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x140, 0x20, false, false));
-		parameters.add(new Parameter("MATCH_ACTION_TABLE.R5.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x140, 0x24, false, true));
+		parameters.add(new Parameter("MATCH_ACTION_TABLE.R5.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x140, 0x24, false, false));
 		
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R6.DATA3", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x180, 0x00, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R6.DATA2", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x180, 0x04, false, false));
@@ -131,7 +131,7 @@ public class ProxySFB extends FSM implements IFSM {
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R6.MASK1", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x180, 0x18, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R6.MASK0", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x180, 0x1C, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R6.ACTION", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x180, 0x20, false, false));
-		parameters.add(new Parameter("MATCH_ACTION_TABLE.R6.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x180, 0x24, false, true));
+		parameters.add(new Parameter("MATCH_ACTION_TABLE.R6.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x180, 0x24, false, false));
 		
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R7.DATA3", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x1C0, 0x00, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R7.DATA2", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x1C0, 0x04, false, false));
@@ -142,7 +142,7 @@ public class ProxySFB extends FSM implements IFSM {
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R7.MASK1", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x1C0, 0x18, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R7.MASK0", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x1C0, 0x1C, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R7.ACTION", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x1C0, 0x20, false, false));
-		parameters.add(new Parameter("MATCH_ACTION_TABLE.R7.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x1C0, 0x24, false, true));
+		parameters.add(new Parameter("MATCH_ACTION_TABLE.R7.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x1C0, 0x24, false, false));
 		
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R8.DATA3", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x200, 0x00, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R8.DATA2", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x200, 0x04, false, false));
@@ -153,7 +153,7 @@ public class ProxySFB extends FSM implements IFSM {
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R8.MASK1", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x200, 0x18, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R8.MASK0", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x200, 0x1C, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R8.ACTION", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x200, 0x20, false, false));
-		parameters.add(new Parameter("MATCH_ACTION_TABLE.R8.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x200, 0x24, false, true));
+		parameters.add(new Parameter("MATCH_ACTION_TABLE.R8.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x200, 0x24, false, false));
 		
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R9.DATA3", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x240, 0x00, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R9.DATA2", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x240, 0x04, false, false));
@@ -164,7 +164,7 @@ public class ProxySFB extends FSM implements IFSM {
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R9.MASK1", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x240, 0x18, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R9.MASK0", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x240, 0x1C, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R9.ACTION", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x240, 0x20, false, false));
-		parameters.add(new Parameter("MATCH_ACTION_TABLE.R9.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x240, 0x24, false, true));
+		parameters.add(new Parameter("MATCH_ACTION_TABLE.R9.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x240, 0x24, false, false));
 		
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R10.DATA3", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x280, 0x00, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R10.DATA2", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x280, 0x04, false, false));
@@ -175,7 +175,7 @@ public class ProxySFB extends FSM implements IFSM {
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R10.MASK1", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x280, 0x18, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R10.MASK0", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x280, 0x1C, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R10.ACTION", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x280, 0x20, false, false));
-		parameters.add(new Parameter("MATCH_ACTION_TABLE.R10.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x280, 0x24, false, true));
+		parameters.add(new Parameter("MATCH_ACTION_TABLE.R10.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x280, 0x24, false, false));
 		
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R11.DATA3", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x2C0, 0x00, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R11.DATA2", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x2C0, 0x04, false, false));
@@ -186,7 +186,7 @@ public class ProxySFB extends FSM implements IFSM {
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R11.MASK1", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x2C0, 0x18, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R11.MASK0", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x2C0, 0x1C, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R11.ACTION", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x2C0, 0x20, false, false));
-		parameters.add(new Parameter("MATCH_ACTION_TABLE.R11.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x2C0, 0x24, false, true));
+		parameters.add(new Parameter("MATCH_ACTION_TABLE.R11.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x2C0, 0x24, false, false));
 		
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R12.DATA3", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x300, 0x00, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R12.DATA2", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x300, 0x04, false, false));
@@ -197,7 +197,7 @@ public class ProxySFB extends FSM implements IFSM {
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R12.MASK1", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x300, 0x18, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R12.MASK0", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x300, 0x1C, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R12.ACTION", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x300, 0x20, false, false));
-		parameters.add(new Parameter("MATCH_ACTION_TABLE.R12.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x300, 0x24, false, true));
+		parameters.add(new Parameter("MATCH_ACTION_TABLE.R12.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x300, 0x24, false, false));
 		
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R13.DATA3", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x340, 0x00, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R13.DATA2", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x340, 0x04, false, false));
@@ -208,7 +208,7 @@ public class ProxySFB extends FSM implements IFSM {
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R13.MASK1", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x340, 0x18, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R13.MASK0", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x340, 0x1C, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R13.ACTION", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x340, 0x20, false, false));
-		parameters.add(new Parameter("MATCH_ACTION_TABLE.R13.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x340, 0x24, false, true));
+		parameters.add(new Parameter("MATCH_ACTION_TABLE.R13.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x340, 0x24, false, false));
 		
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R14.DATA3", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x380, 0x00, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R14.DATA2", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x380, 0x04, false, false));
@@ -219,7 +219,7 @@ public class ProxySFB extends FSM implements IFSM {
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R14.MASK1", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x380, 0x18, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R14.MASK0", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x380, 0x1C, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R14.ACTION", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x380, 0x20, false, false));
-		parameters.add(new Parameter("MATCH_ACTION_TABLE.R14.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x380, 0x24, false, true));
+		parameters.add(new Parameter("MATCH_ACTION_TABLE.R14.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x380, 0x24, false, false));
 		
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R15.DATA3", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x3C0, 0x00, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R15.DATA2", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x3C0, 0x04, false, false));
@@ -230,7 +230,7 @@ public class ProxySFB extends FSM implements IFSM {
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R15.MASK1", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x3C0, 0x18, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R15.MASK0", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x3C0, 0x1C, false, false));
 		parameters.add(new Parameter("MATCH_ACTION_TABLE.R15.ACTION", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x3C0, 0x20, false, false));
-		parameters.add(new Parameter("MATCH_ACTION_TABLE.R15.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x3C0, 0x24, false, true));
+		parameters.add(new Parameter("MATCH_ACTION_TABLE.R15.COUNTER", Parameter.MATCH_ACTION_TABLE_BASE_ADDR, 0x3C0, 0x24, false, false));
 		
 		itParameter = parameters.iterator();
 		
